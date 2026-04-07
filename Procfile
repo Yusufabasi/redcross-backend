@@ -1,2 +1,2 @@
-web: gunicorn redcross.wsgi
-release: python manage.py migrate
+web: gunicorn redcross.wsgi --log-file-
+
